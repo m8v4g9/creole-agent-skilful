@@ -289,9 +289,7 @@ thread = client.beta.threads.create()
 if 'conversation_data' not in st.session_state:
     st.session_state.conversation_data = ''
 
-st.set_page_config(page_title="On-Air Sidekick",page_icon=":flag:")
-
-# st.header("On-Air Sidekick")
+st.set_page_config(page_title="Chatty",page_icon=":flag:")
 
 
 with st.form(key="conversation", clear_on_submit=True):
@@ -299,7 +297,11 @@ with st.form(key="conversation", clear_on_submit=True):
     submit_button = st.form_submit_button("Say")
     answer        = ""
 
-st.session_state.conversation_data +=  "User: " + inquiry
+# Persistent state to store the appended text
+if 'conversation_data' not in st.session_state:
+    st.session_state.conversation_data = ''
+else:
+    st.session_state.conversation_data +=  "User: " + inquiry
     
 # Update the sidebar.
 # if not submit_button:
