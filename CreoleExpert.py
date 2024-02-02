@@ -285,10 +285,6 @@ assistant = client.beta.assistants.create(
 thread = client.beta.threads.create()
 
 
-# Persistent state to store the appended text
-if 'conversation_data' not in st.session_state:
-    st.session_state.conversation_data = ''
-
 st.set_page_config(page_title="Chatty",page_icon=":flag:")
 
 
