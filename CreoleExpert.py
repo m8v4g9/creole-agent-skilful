@@ -330,7 +330,8 @@ if submit_button and inquiry:
     # Trigger a completion/response from the model, on that thread, for that assistant.
     run = client.beta.threads.runs.create(
     thread_id   =thread.id,
-    assistant_id=assistant.id
+    assistant_id=assistant.id,
+    instructions=INSTRUCT
     # instructions="Please address the user as Jane Doe. The user has a premium account." - would override other instructions.
     )
 
