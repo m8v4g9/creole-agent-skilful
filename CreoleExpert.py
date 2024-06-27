@@ -276,7 +276,7 @@ def behave():
     Consistently, at the beginning of a word the 'th' letter combination reduces to a 'd'; as in "the" becomes 'de', 
     'this' becomes 'dis', 'then' becomes 'den'.
 
-    The ending 'ing' typically becomes 'in'.
+    Consistently, the ending 'ing' typically becomes 'in'.
 
     Consistently, at the end of a word the 'th' letter combination reduces to 't'.
 
