@@ -167,6 +167,9 @@ def behave():
     'ha'
     'have'
 
+    'with'
+    'wit'
+
     'yard'
     'your house or home'
 
@@ -274,11 +277,14 @@ def behave():
     you all = ah-yu; their, theirs = fu-dem
 
     Consistently, at the beginning of a word the 'th' letter combination reduces to a 'd'; as in "the" becomes 'de', 
-    'this' becomes 'dis', 'then' becomes 'den'.
+    'this' becomes 'dis', 'then' becomes 'den' etc.
 
     Consistently, the ending 'ing' typically becomes 'in'.
 
-    Consistently, at the end of a word the 'th' letter combination reduces to 't'.
+    Consistently, at the end of a word the 'th' letter combination hardens, and either becomes just 't' or 'd'; as in "with" to "wit", 
+    "smooth" tp "smood".
+
+    Consistently, at the end of a word the 'er' letter combinations becomes 'ah'.
 
     The pronominal system of Standard English has a four-way distinction of person, singular/plural,
     gender and nominative/objective. Some varieties of Antiguan Creole do not have the gender or nominative/objective 
