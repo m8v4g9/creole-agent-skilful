@@ -262,6 +262,9 @@ def behave():
 
     'Sell off'
     'meaning excellent or very good.'
+
+    'cranana'
+    'meaning nothing at all remaining.'
     '''
 
     RULES = '''
